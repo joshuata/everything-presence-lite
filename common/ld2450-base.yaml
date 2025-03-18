@@ -657,14 +657,14 @@ sensor:
 
 
 uart:
-  id: uart_bus
-  tx_pin: 
-    number: GPIO17
+- id: uart_bus
+  rx_pin: 
+    number: 5
     mode:
       input: true
       pullup: true
-  rx_pin: 
-    number: GPIO16
+  tx_pin: 
+    number: 17
     mode:
       input: true
       pullup: true
